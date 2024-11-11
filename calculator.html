@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../CSS/calculator.css">
+</head>
+<body>
+    <h1 class="heading">Calculator</h1>
+    <div class="overview">
+        <input type="text" id="display" class="outputs" disabled>
+        <div class="buttons">
+            <button class="AC" onclick="clearDisplay()">AC</button>
+            <button class="backspace" onclick="deleteLast()"('2')">B</button>
+            <button class="percentage" onclick="appendToDisplay('%')">%</button>
+            <button class="division" onclick="appendToDisplay('/')">÷</button>
+            <button class="multiply" onclick="appendToDisplay('*')">×</button>
+            <button class="addition" onclick="appendToDisplay('+')">+</button>
+            <button class="sub" onclick="appendToDisplay('-')">-</button>
+            <button class="nine" onclick="appendToDisplay('9')">9</button>
+            <button class="eight" onclick="appendToDisplay('8')">8</button>
+            <button class="seven" onclick="appendToDisplay('7')">7</button>
+            <button class="six" onclick="appendToDisplay('6')">6</button>
+            <button class="five" onclick="appendToDisplay('5')">5</button>
+            <button class="four" onclick="appendToDisplay('4')">4</button>
+            <button class="three" onclick="appendToDisplay('3')">3</button>
+            <button class="two" onclick="appendToDisplay('2')">2</button>
+            <button class="one" onclick="appendToDisplay('1')">1</button>
+            <button class="zero" onclick="appendToDisplay('0')">0</button>
+            <button class="zerozero" onclick="appendToDisplay('00')">00</button>
+            <button class="point" onclick="appendToDisplay('.')">.</button>
+            <button class="equal" onclick="calculate('=')">=</button>
+        </div>
+        <img class="girl" src="../images/calcgirl.jpg" alt="Calculator Girl">
+    </div>
+    <script src="../JAVASCRIPT/calculator.js"></script>
+</body>
+</html>

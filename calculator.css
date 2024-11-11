@@ -1,0 +1,353 @@
+
+body {
+    background-color: palevioletred;
+}
+
+.heading {
+    position: absolute;
+    font: 1000px;
+    left: 650px;
+    top: 90px;
+    cursor: pointer;
+    color: black;
+}
+
+.overview {
+    height: 375px;
+    width: 500px;
+    top: 150px;
+    left: 470px;
+    position: absolute;
+    background-color: gold;
+    border-radius: 50px;
+    border: 4px solid black;
+}
+
+.outputs {
+    height: 60px;
+    width: 484px;
+    font-size: larger;
+    font-weight:bolder;
+    font-style: italic;
+    color: darkblue;
+    background-color: whitesmoke;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 70px;
+    top:5px;
+    left:8px;
+    border: 4px solid black;
+}
+
+.girl {
+    width: 150px;
+    height: 270px;
+    top: 85px;
+    left: 340px;
+    position: absolute;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+
+.AC {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:80px;
+    left:20px;
+    cursor: pointer;
+    background-color: darkturquoise;
+}
+
+.backspace {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:80px;
+    left:100px;
+    cursor: pointer;
+    background-color: darkturquoise; 
+}
+
+.percentage {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:80px;
+    left:180px;
+    cursor: pointer;
+    background-color: darkturquoise; 
+}
+
+.division {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:80px;
+    left:260px;
+    cursor: pointer;
+    background-color: violet;   
+}
+
+.one {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:250px;
+    left:20px;
+    cursor: pointer;
+    background-color: darkturquoise;   
+}
+
+.two {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:250px;
+    left:100px;
+    cursor: pointer;
+    background-color: darkturquoise;
+}
+
+.three {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:250px;
+    left:180px;
+    cursor: pointer;
+    background-color: darkturquoise;   
+}
+
+.four {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:190px;
+    left:20px;
+    cursor: pointer;
+    background-color: darkturquoise;   
+}
+
+.five {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:190px;
+    left:100px;
+    cursor: pointer;
+    background-color: darkturquoise;   
+}
+
+.six {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:190px;
+    left:180px;
+    cursor: pointer;
+    background-color: darkturquoise;   
+}
+
+.seven {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:135px;
+    left:20px;
+    cursor: pointer;
+    background-color: darkturquoise;   
+}
+
+.eight {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:135px;
+    left:100px;
+    cursor: pointer;
+    background-color: darkturquoise;   
+}
+
+.nine {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:135px;
+    left:180px;
+    cursor: pointer;
+    background-color: darkturquoise;   
+}
+
+.multiply {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:135px;
+    left:260px;
+    cursor: pointer;
+    background-color: violet;   
+}
+
+.addition {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:190px;
+    left:260px;
+    cursor: pointer;
+    background-color: violet;   
+}
+
+.sub {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:250px;
+    left:260px;
+    cursor: pointer;
+    background-color: violet;   
+}
+
+.zero {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:310px;
+    left:20px;
+    cursor: pointer;
+    background-color: violet;   
+}
+
+.zerozero {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:310px;
+    left: 100px;
+    cursor: pointer;
+    background-color: violet;   
+}
+
+.point {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:310px;
+    left: 180px;
+    cursor: pointer;
+    background-color: violet;   
+}
+
+.equal {
+    height: 50px;
+    width: 70px;
+    border-radius: 150px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    font-weight: 800;
+    border: 4px solid black;
+    top:310px;
+    left: 260px;
+    cursor: pointer;
+    background-color: violet;   
+}
+
+
